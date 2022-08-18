@@ -1,0 +1,161 @@
+swagger: '2.0'
+info:
+  title: Swagger example for student api
+  version: "0.1"
+  description: Swagger example for student api
+consumes:
+  - application/json
+produces:
+  - application/json
+
+paths:
+  /Student:
+    get:
+      tags: [Users]
+      summary: Get all student
+      responses:
+        200:
+          description: Return student list
+          schema:
+            type: object
+            properties:
+              pets:
+                type: array
+                items:
+                  $ref: '#/definitions/User'
+    post:
+      tags: [Create User]
+      description: Create an Student
+      parameters:
+      - name: Student
+        description: Create an new Student
+        in: formData
+        required: true
+        type: String
+      responses: 
+        201:
+          description: Created 
+   
+ 
+  /Student/{id}:
+    get:
+      tags: [Get Single Student]
+      summary: Get a single student
+      parameters:
+        - $ref: '#/parameters/id'
+      responses:
+        200:
+          description: Return student
+          schema:
+            $ref: '#/definitions/User'
+        404:
+          description: User does not exist
+    put:
+      tags: [Update Student]
+      summary: Create or update a user
+      parameters:
+        - $ref: '#/parameters/id'
+        - name: test
+          in: body
+          schema:
+            $ref: '#/definitions/User'
+      responses:
+        200:
+          description: student updated
+        201:
+          description: student Not updated
+    delete:
+      tags: [Delete User]
+      summary: Remove a student
+      parameters:
+        - $ref: '#/parameters/id'
+      responses:
+        204:
+          description: Student was deleted
+        404:
+          description: Student does not exist
+
+definitions:
+  User:
+    type: object
+    required:
+      - name
+    properties:
+      id:
+        type: string
+        description: Unique identifier
+        example: "123"
+        readOnly: true
+      name:
+        type: string
+        description: Student name
+        example: "test user"
+        minLength: 1
+        maxLength: 100
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# openapi: 3.0.0
+# info:
+#   title: Node.js Sign-up and Verification API
+#   description: Node.js + MongoDB - API with email sign-up, verification, authentication and forgot password
+#   version: 1.0.0
+
+# servers:
+#   - url: http://localhost:5000
+#     description: Local development server
+
+# paths:
+#   /Employees:
+#     get:
+#       description: Get all Employee
+#       responses: 
+#         200:
+#            description: successful operation
+#            schemas:
+#               ArrayOfUsers:
+#                  type: array
+#                  items:
+#                     type: object
+#                 properties:
+#                   id:
+#                     type: string
+#                   name:
+#                     type: string
+  
