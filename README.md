@@ -26,5 +26,5 @@ Now you can do the npm start in the terminal to your app and it will navigate to
 
 URL for swagger doc http://localhost:5000/api-docs/
 
-![picture alt](https://github.com/vinodnextcoder/swagger-api-nodejs/blob/main/swagger_example. "Node.js + Swagger")
+![picture alt](https://github.com/vinodnextcoder/swagger-api-nodejs/blob/main/swagger_example.png)
 
