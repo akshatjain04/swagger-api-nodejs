@@ -32,11 +32,11 @@ app.get('/Student',(req,res)=>{
 });
 
  app.put('/Student/:id',(req,res)=>{
-    res.status(201).send();
+    res.status(200).send();
  });
 
  app.get('/Student/:id',(req,res)=>{
-    res.status(201).send({
+    res.status(200).send({
         id:1,
         Name:'Test User'
     },);
