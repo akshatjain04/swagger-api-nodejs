@@ -75,6 +75,15 @@ paths:
         404:
           description: Student does not exist
 
+parameters:
+  id:
+    name: id
+    description:  Unique identifier
+    in: path
+    type: string
+    required: true
+    pattern: "^[a-zA-Z0-9-]+$"
+
 definitions:
   User:
     type: object
