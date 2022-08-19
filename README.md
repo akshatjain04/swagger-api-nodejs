@@ -19,8 +19,9 @@ Node.js -> Node.js
 # Run the URL in the browser
 Clone the repo. Switch to the swagger-api-nodejs directory in the repo downloaded.
 Install dependencies with npm install
--- npm install
--- npm start
+
+- npm install
+- npm start
 
 Now you can do the npm start in the terminal to your app and it will navigate to the browser we have to add the /api-docs at the end of the URL so that i will navigate to the swagger which we have configured and you will see the Swagger UI based on your generated swagger.yaml.
 
