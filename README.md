@@ -1,8 +1,6 @@
 ## Integrate Open API(Swagger) with Node & Express
 
 ### Topic to be covered in this article
-- Tools required
-- Required Packages
 - Setting up the Swagger
 - Run & Test the Application
 
