@@ -1,0 +1,11 @@
+accountCode,profileIdentifier,firstName,lastName,profilePin
+A1234,SYNC_EMAIL,John,Doe,9876
+B5678,SYNC_PIN,Jane,Smith,1234
+C9012,SYNC_EXTERNAL,David,Brown,4567
+D3456,SYNC_EMAIL,Emily,Johnson,8901
+E7890,SYNC_PIN,Michael,Williams,2345
+F1234,SYNC_EXTERNAL,Emma,Taylor,6789
+G5678,SYNC_EMAIL,James,Thomas,0123
+H9012,SYNC_PIN,Jennifer,Roberts,4560
+I3456,SYNC_EXTERNAL,Robert,Turner,7890
+J7890,SYNC_EMAIL,Linda,Walker,1230
