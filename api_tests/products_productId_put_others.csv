@@ -1,0 +1,26 @@
+id,name,description,price
+1,John Doe,An average Joe,100
+2,Jane Doe,Just another Jane,200
+3,Jim Beam,A whiskey enthusiast,150
+4,Jack Daniels,A whiskey connoisseur,250
+5,123456,An unusual name,300
+6,James Bond,007,350
+7,product@123,An unexpected email,400
+8,8,Number eight,450
+9,John Smith,The most common name,500
+10,Null,An undefined entity,550
+11,NaN,A non-numeric value,600
+12,undefined,A missing value,650
+13,Infinity,An endless value,700
+14,-Infinity,A negative endless value,750
+15,Boolean,A true or false value,800
+16,Array,A collection of values,850
+17,Object,An entity with properties,900
+18,Function,A block of code,950
+19,Date,The current date,1000
+20,RegExp,A regular expression,1050
+21,Error,A mistake,1100
+22,String,A sequence of characters,1150
+23,Number,A numerical value,1200
+24,Symbol,A unique identifier,1250
+25,BigInt,A large integer,1300
